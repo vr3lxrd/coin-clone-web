@@ -10,16 +10,15 @@ We are making this in a study group, if you like to see the others projects, the
 - [LAzz1](https://github.com/LAzz1/coinmaster) 
 - Vitão
 ## Tecnologies used
-We decided to not use frameworks like Next.js or React.
 
 **Front-end**
 - HTML/CSS/JS
-- Ajax
+- Express.js
 - EJS
 
 **Back-end**
 - Node.js
-- SQLITE3
+- MongoDB
 
 ## Objectives
 **Primary**
