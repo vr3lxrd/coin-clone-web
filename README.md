@@ -1,8 +1,8 @@
 # Coin Master for Browsers 
 ## Summary / Sumário
 
- 🇺🇸 [EN-US](#About-the-project)
- 🇧🇷 [PT-BR](#Sobre-o-projeto)
+ - 🇺🇸 [EN-US](#About-the-project)
+ - 🇧🇷 [PT-BR](#Sobre-o-projeto)
 
 ## About the project
 This project is a "[Coin Master](https://play.google.com/store/apps/details?id=com.moonactive.coinmaster&hl=pt_BR&gl=US)" like game, but made for web browsers. **The objective is purely for studies** and not for profits. Also, we don't want to code exactly like the original game, but recreate the **mechanics**.
