@@ -15,9 +15,11 @@ We decided to not use frameworks like Next.js or React.
 **Front-end**
 - HTML/CSS/JS
 - Ajax
+- EJS
 
 **Back-end**
 - Node.js
+- SQLITE3
 
 ## Objectives
 **Primary**
