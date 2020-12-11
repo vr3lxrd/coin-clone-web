@@ -1,0 +1,13 @@
+{
+"watch": [
+    "static",
+    "views",
+    "./"
+    ],
+"ext": "js,json,ejs,css",
+"env": {
+    "PORT": "3000",
+    "DB_HOST": "mongodb://localhost/coinmaster",
+    "DB_NAME": "coinmaster"
+    }    
+}

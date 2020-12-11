@@ -1,0 +1,19 @@
+<%- contentFor('body') %>
+<div id="contentLogin">
+    <div id="loginDiv" class="col-sm-6">
+        <div id="leftSide">
+            <h1>Login Coin Master</h1>
+            <img src="/images/coinLogo.png">
+        </div>
+        <div id="rightSide">
+            <form name="login" method="POST" action="/login">
+                <label for="username">Preencha seu usuário</label>
+                <input class="inputText" type="text" name="username" placeholder="Usuário">
+                <label for="password">Agora digite sua senha</label>
+                <input class="inputText" type="password" name="password" placeholder="Senha">
+                <input class="inputText" id="inputSubmit" type="submit" value="Jogar!">
+            </form>
+            <a href="/register">Não possui uma conta? Cadastre-se!</a>
+        </div>
+    </div>
+</div>

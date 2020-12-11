@@ -1,0 +1,24 @@
+<%- contentFor('body') %>
+<div id="contentLogin">
+    <div id="loginDiv" class="col-sm-6">
+        <div id="leftSide">
+            <h1>Crie sua conta!</h1>
+            <img src="/images/coinLogo.png">
+        </div>
+        <div id="rightSide">
+            <% if (error === true) { %>
+                <p class="errorMessage"><%= message %> </p>
+            <% } %> 
+            <form name="register" method="POST" action="/register">
+                <label for="username">Qual usuário deseja?</label>
+                <input class="inputText" type="text" name="username" placeholder="Usuário">
+                <label for="password">Digite sua senha</label>
+                <input class="inputText" type="password" name="password" placeholder="Senha">
+                <label for="confirmPassword">Confirme sua senha</label>
+                <input class="inputText" type="password" name="confirmPassword" placeholder="Confirmar Senha">
+                <input class="inputText" id="inputSubmit" type="submit" value="Cadastrar!">
+            </form>
+            <a href="/login">Já possui uma conta? Faça login!</a>
+        </div>
+    </div>
+</div>
